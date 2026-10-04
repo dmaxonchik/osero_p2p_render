@@ -5,7 +5,7 @@ const port = process.env.PORT || 9000;
 
 const peerServer = PeerServer({ 
     port: port, // ← 変数を使うように変更
-    path: '/myapp'
+    path: '/'
 });
 
 console.log(`PeerJS server running on port ${port}`);
